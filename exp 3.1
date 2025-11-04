@@ -1,0 +1,19 @@
+class Fish{
+void breath()
+{
+System.out.println("Fish is breathing");
+}
+}
+class Prawns extends Fish{
+void swim()
+{
+System.out.println("Fish is swimming ");
+}
+}
+class Main{
+public static void main(String[] args){
+Prawns p = new Prawns();
+p.breath();
+p.swim();
+}
+}
